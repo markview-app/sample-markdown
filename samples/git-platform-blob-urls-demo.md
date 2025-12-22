@@ -2,6 +2,9 @@
 
 Testing automatic conversion of blob URLs to raw URLs for various Git hosting platforms.
 
+> [!TIP]
+> **MarkView Advantage**: This extension automatically converts blob URLs to raw URLs for all major Git platforms (GitHub, GitLab, Bitbucket, Gitea, etc.), providing better image support than the platforms themselves. GitHub blob URLs only work natively when hosted on GitHub, and GitLab doesn't support blob URLs at all - but MarkView makes them work everywhere!
+
 ---
 
 ## 1. GitHub
@@ -12,7 +15,7 @@ Testing automatic conversion of blob URLs to raw URLs for various Git hosting pl
 ### Test 1: GitHub blob URL
 
 > [!IMPORTANT]
-> At the time this sample was created, when opening the original Markdown file on GitHub, this image link format could be displayed as an actual image, but only if the Markdown file was hosted on GitHub.
+> At the time this sample was created, GitHub supported this image link format, but only worked if this markdown file was hosted on GitHub.
 
 <img src="https://github.com/markview-app/sample-markdown/blob/main/assets/image-1.jpg" alt="GitHub blob" height="500">
 
@@ -34,7 +37,7 @@ Testing automatic conversion of blob URLs to raw URLs for various Git hosting pl
 ### Test 1: GitLab blob URL
 
 > [!WARNING]
-> At the time this sample was created, when opening the original Markdown file on GitLab, this image link format could not be displayed as an actual image.
+> At the time this sample was created, GitLab did not support this image link format.
 
 <img src="https://gitlab.com/dangthanhtung/markview-sample-markdown/-/blob/main/assets/image-1.jpg" alt="GitLab blob" height="500">
 

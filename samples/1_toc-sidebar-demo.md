@@ -1,6 +1,6 @@
-# MarkView TOC Test Document
+# Table of Contents (TOC) Sidebar Demo
 
-This document tests the Table of Contents (TOC) sidebar feature.
+> MarkView's Table of Contents (TOC) sidebar feature automatically extracts headings from your markdown files and provides a clickable navigation structure for easy access to different sections of your document.
 
 ## Introduction
 
@@ -74,7 +74,7 @@ What happens when we jump from h2 to h5?
 
 This should still work correctly.
 
-### Special Characters in Headings!
+### Special Characters in Headings
 
 Headings with **bold**, *italic*, and `code` should work.
 
@@ -87,14 +87,23 @@ The UI should handle long headings with ellipsis.
 Large documents with many headings.
 
 ### Section A
+
 ### Section B
+
 ### Section C
+
 ### Section D
+
 ### Section E
+
 ### Section F
+
 ### Section G
+
 ### Section H
+
 ### Section I
+
 ### Section J
 
 All sections should render quickly.

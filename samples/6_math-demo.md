@@ -1,6 +1,6 @@
-# Mathematical Equations & Formulas
+# Mathematical Equations & Formulas Demo
 
-> Beautiful LaTeX math rendering with KaTeX for scientific and technical documentation.
+> **MarkView** renders beautiful LaTeX math equations with KaTeX — perfect for scientific and technical documentation.
 
 ## Fundamental Mathematics
 

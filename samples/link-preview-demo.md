@@ -1,6 +1,6 @@
 # External Link Preview Test
 
-This document tests the new External Link Preview feature.
+> **MarkView** provides link preview cards for external links. Hover over the links below to see preview cards with title, description, and thumbnail image (if available).
 
 ## Test Cases
 

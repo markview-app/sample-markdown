@@ -1,18 +1,8 @@
-# Simple Diagrams
+# Interactive Mermaid Diagrams
 
-> Visualize diagrams with beautiful, interactive Mermaid diagrams.
-
-## Features
-
-- Click the expand button (top-right corner of diagram) to **Open Fullscreen** view
-- In fullscreen mode:
-  - **Zoom In/Out**: Use the +/- buttons or mouse wheel
-  - **Pan**: Click and drag to move around
-  - **Reset View**: Click the reset button to return to original size
-  - **Close**: Click the X button or press ESC key
-- **Print-friendly**: Try printing this page (Ctrl+P / Cmd+P) - the expand buttons and modal should be hidden, and diagrams should print cleanly.
-
----
+> **MarkView** brings your diagrams to life with beautiful, interactive Mermaid visualization.
+>
+> Click the expand button (top-right corner) to **open fullscreen** view with **pan and zoom** capabilities for detailed exploration.
 
 ## OAuth 2.0 Authorization Flow
 

@@ -2,7 +2,7 @@
 
 This document tests all features: **images**, **syntax highlighting**, and **enhanced tables**.
 
-Please click the "Export to DOCX" button in MarkView to generate a Word document and verify that all content is rendered correctly.
+Please click the "Export to DOCX" button in **MarkView** to generate a Word document and verify that all content is rendered correctly.
 
 ---
 
@@ -425,6 +425,8 @@ $$
 \int_{a}^{b} f(x) dx = F(b) - F(a)
 $$
 
+*Note: Math equations currently render as plain text. Full OMML support coming in Phase 3.*
+
 ---
 
 ## 9. Performance Test
@@ -495,3 +497,9 @@ This document tests:
 - Code in lists
 - Tables with inline code
 - Nested structures
+
+---
+
+**Test Date:** 2025-11-28  
+**Version:** Phase 2 Implementation  
+**Status:** Ready for Export  

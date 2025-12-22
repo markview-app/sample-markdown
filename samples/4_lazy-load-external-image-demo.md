@@ -1,6 +1,6 @@
-# Lazy Loading Test
+# Lazy Loading External Images Demo
 
-This document tests the lazy image loading feature.
+> MarkView's lazy loading feature for external images ensures that images are only loaded when they are about to enter the viewport, improving page load performance and user experience.
 
 ## Expected Behavior
 
