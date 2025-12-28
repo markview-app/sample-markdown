@@ -94,11 +94,11 @@
 
 | Feature | Description | Screenshot |
 |:--------|:------------|:-----------|
-| Image Display | Demonstrates internal image rendering in tables | ![Internal Image](./assets/image-1.jpg) |
-| Image Alignment | Shows different image alignments within table cells | <p align="center"><img src="./assets/image-2.jpg" alt="Centered Image" width="100"/></p> |
-| Image with Caption | Displays an image along with a caption in a table cell | ![Image with Caption](./assets/image-3.jpg)<br>*Figure: Sample Image with Caption* |
-| Linked Image | An image that acts as a hyperlink within a table cell | [![Linked Image](./assets/image-4.jpg)](https://example.com) |
-| Alt Text Image | An image with alt text for accessibility | ![Alt Text Image](./assets/image-5.jpg "This is alt text for the image") |
+| Image Display | Demonstrates internal image rendering in tables | ![Internal Image](../assets/image-1.jpg) |
+| Image Alignment | Shows different image alignments within table cells | <p align="center"><img src="../assets/image-2.jpg" alt="Centered Image" width="100"/></p> |
+| Image with Caption | Displays an image along with a caption in a table cell | ![Image with Caption](../assets/image-3.jpg)<br>*Figure: Sample Image with Caption* |
+| Linked Image | An image that acts as a hyperlink within a table cell | [![Linked Image](../assets/image-4.jpg)](https://example.com) |
+| Alt Text Image | An image with alt text for accessibility | ![Alt Text Image](../assets/image-5.jpg "This is alt text for the image") |
 
 ## Test: Table Long Content
 
