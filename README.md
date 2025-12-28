@@ -29,6 +29,7 @@ Sample Markdown files demonstrating the features and capabilities of **MarkView*
 - [Table of Contents & Sidebar](samples/1_toc-sidebar-demo.md) - Navigation and document structure
 - [Tables](samples/2_table-demo.md) - Table formatting and styling
 - [Syntax Highlighting](samples/3_syntax-highlighting-demo.md) - Code blocks with syntax highlighting
+- [Line Breaks Behavior](samples/breaks-behavior-demo.md) - CommonMark line break handling demonstration
 
 ### Images & Media
 

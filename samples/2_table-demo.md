@@ -9,26 +9,6 @@
 | Kong | Work as a gateway |
 | Service | Validate request |
 
-## Test: Table with HTML Lists
-
-| # | Component | Description |
-|--:|:----------|:------------|
-| 1 | Kong | <ul><li><p>Work as a gateway</p></li><li><p>Verify authentication</p></li></ul> |
-| 2 | Service | <ul><li><p>Validate request signature</p></li><li><p>Validate member</p></li></ul> |
-
-## Test: Table with Nested Lists
-
-| # | Component | Description |
-|--:|:----------|:------------|
-| 1 | Notification | <ul><li><p>Send notification via email for:</p><ul><li><p>Limit threshold warning</p></li><li><p>Over limit warning</p></li></ul></li></ul> |
-
-## Test: Complex Table
-
-| | **Transaction processing** | **Settlement** | **Operation** |
-|:---|:---|:---|:---|
-| **Boundary** | Contains all services | Service for settlement | All services for operation |
-| **External Auth** | Using Kong Enterprise <br/> Keycloak manages clients | No incoming request | JWT <br/> Users managed in Keycloak |
-
 ## Test: Tables With Blank Line Between
 
 |  A  |  B  |
@@ -38,6 +18,87 @@
 |  C  |  D  |
 |-----|-----|
 | c1  | d1  |
+
+## Test: HTML Elements in Tables
+
+| HTML Element | Example | Rendered Output |
+|:-------------|:--------|:----------------|
+| Bold | `<strong>Bold text</strong>` | <strong>Bold text</strong> |
+| Italic | `<em>Italic text</em>` | <em>Italic text</em> |
+| Underline | `<u>Underlined text</u>` | <u>Underlined text</u> |
+| Strike | `<s>Strikethrough text</s>` | <s>Strikethrough text</s> |
+| Code | `<code>inline code</code>` | <code>inline code</code> |
+| Subscript | `H<sub>2</sub>O` | H<sub>2</sub>O |
+| Superscript | `E=mc<sup>2</sup>` | E=mc<sup>2</sup> |
+| Line Break | `Line 1<br>Line 2` | Line 1<br>Line 2 |
+| Small Text | `<small>Small print</small>` | <small>Small print</small> |
+| Mark/Highlight | `<mark>Highlighted text</mark>` | <mark>Highlighted text</mark> |
+| Keyboard | `<kbd>Ctrl</kbd> + <kbd>C</kbd>` | <kbd>Ctrl</kbd> + <kbd>C</kbd> |
+| Abbreviation | `<abbr title="HyperText Markup Language">HTML</abbr>` | <abbr title="HyperText Markup Language">HTML</abbr> |
+
+## Test: Complex HTML Structures in Tables
+
+| Feature | Description | Example |
+|:--------|:------------|:--------|
+| Nested Formatting | Multiple HTML elements combined | <strong>Bold <em>and italic</em></strong> with <code>code</code> |
+| Colored Text | Using inline styles | <span style="color: red;">Red</span>, <span style="color: blue;">Blue</span>, <span style="color: green;">Green</span> |
+| Links with Formatting | HTML links with styling | <a href="https://example.com"><strong>Bold Link</strong></a> |
+| Multiple Breaks | Multiple line breaks | First<br><br>Second<br><br>Third |
+| Blockquote | Quote inside table | <blockquote>This is a quote in a table</blockquote> |
+| Details/Summary | Collapsible content | <details><summary>Click to expand</summary><p>Hidden content here</p></details> |
+| HTML Entities | Special characters | &copy; &trade; &reg; &hearts; &spades; |
+
+## Test: Lists and Structured Content in Tables
+
+| Type | Content |
+|:-----|:--------|
+| Simple List | <ul><li>Item 1</li><li>Item 2</li><li>Item 3</li></ul> |
+| Ordered List | <ol><li>First</li><li>Second</li><li>Third</li></ol> |
+| Nested List | <ul><li>Parent 1<ul><li>Child 1.1</li><li>Child 1.2</li></ul></li><li>Parent 2</li></ul> |
+| Mixed Content | <p><strong>Title:</strong></p><ul><li>Point 1</li><li>Point 2</li></ul><p><em>Note: Additional info</em></p> |
+| Definition List | <dl><dt>Term</dt><dd>Definition of the term</dd><dt>Another</dt><dd>Another definition</dd></dl> |
+
+## Test: Inline Code Showing HTML Tags
+
+| Tag | Description | Display Example |
+|:----|:------------|:----------------|
+| `<p>` | Paragraph tag | Used for paragraph blocks |
+| `<br>` | Line break tag | Creates a line break |
+| `<div>` | Division tag | Container element |
+| `<span>` | Span tag | Inline container |
+| `<ul>` / `<li>` | List tags | For unordered lists |
+| `<strong>` | Strong tag | For bold text |
+| `<em>` | Emphasis tag | For italic text |
+| `<code>` | Code tag | For inline code |
+
+## Test: HTML Attributes and Styling
+
+| Feature | HTML Code | Result |
+|:--------|:----------|:-------|
+| Centered Text | `<p align="center">Centered</p>` | <p align="center">Centered</p> |
+| Right Aligned | `<p align="right">Right aligned</p>` | <p align="right">Right aligned</p> |
+| Font Size | `<span style="font-size: 20px;">Large</span>` | <span style="font-size: 20px;">Large</span> |
+| Background Color | `<span style="background-color: yellow;">Highlighted</span>` | <span style="background-color: yellow;">Highlighted</span> |
+| Custom Width | `<div style="width: 200px; border: 1px solid;">Fixed width</div>` | <div style="width: 200px; border: 1px solid;">Fixed width</div> |
+
+## Test: Mixed Markdown and HTML
+
+| Feature | Code | Result |
+|:--------|:-----|:-------|
+| Markdown + HTML | `**Bold** and <em>italic</em>` | **Bold** and <em>italic</em> |
+| Link + Format | `[Link](https://example.com) with <code>code</code>` | [Link](https://example.com) with <code>code</code> |
+| List Hybrid | `- Markdown item` + `<li>HTML item</li>` | - Markdown item<br><ul><li>HTML item</li></ul> |
+| Code + Break | `` `inline code` <br> new line`` | `inline code` <br> new line |
+
+## Test: Table with Internal Images
+
+| Feature | Description | Screenshot |
+|:--------|:------------|:-----------|
+| Image Display | Demonstrates internal image rendering in tables | ![Internal Image](./assets/image-1.jpg) |
+| Image Alignment | Shows different image alignments within table cells | <p align="center"><img src="./assets/image-2.jpg" alt="Centered Image" width="100"/></p> |
+| Image with Caption | Displays an image along with a caption in a table cell | ![Image with Caption](./assets/image-3.jpg)<br>*Figure: Sample Image with Caption* |
+| Linked Image | An image that acts as a hyperlink within a table cell | [![Linked Image](./assets/image-4.jpg)](https://example.com) |
+| Alt Text Image | An image with alt text for accessibility | ![Alt Text Image](./assets/image-5.jpg "This is alt text for the image") |
 
 ## Test: Table Long Content
 
@@ -63,13 +124,3 @@
 | Row 18, Cell 1: Voice user interface and natural language processing features | Row 18, Cell 2: Speech recognition and transcription service integration | Row 18, Cell 3: Text-to-speech synthesis with multiple language support | Row 18, Cell 4: Intent recognition and entity extraction for conversational AI | Row 18, Cell 5: Chatbot development and dialogue management frameworks used | Row 18, Cell 6: Sentiment analysis and emotion detection in text and voice | Row 18, Cell 7: Voice biometrics and speaker identification capabilities | Row 18, Cell 8: Multi-turn conversation handling and context management | Row 18, Cell 9: Voice command execution and smart assistant integration | Row 18, Cell 10: Noise cancellation and audio signal processing techniques |
 | Row 19, Cell 1: Gamification elements and achievement system implementation | Row 19, Cell 2: Leaderboards and competitive ranking mechanisms configured | Row 19, Cell 3: Points, badges, and rewards distribution automation system | Row 19, Cell 4: Progress tracking and milestone celebration features added | Row 19, Cell 5: Challenge and quest systems for user engagement strategies | Row 19, Cell 6: Social features and friend invitation mechanics implemented | Row 19, Cell 7: Daily streaks and login reward mechanisms to boost retention | Row 19, Cell 8: Virtual currency and in-game economy balance management | Row 19, Cell 9: Avatar customization and personalization options provided | Row 19, Cell 10: Tournament and event management for competitive gameplay |
 | Row 20, Cell 1: Accessibility features including screen reader compatibility | Row 20, Cell 2: Keyboard navigation and focus management implementations | Row 20, Cell 3: High contrast themes and color blindness accommodation modes | Row 20, Cell 4: Text resizing and zoom functionality for better readability | Row 20, Cell 5: Closed captions and audio descriptions for media content | Row 20, Cell 6: Alternative text for images and descriptive link text usage | Row 20, Cell 7: ARIA labels and semantic HTML for assistive technologies | Row 20, Cell 8: Voice control and switch control support for motor disabilities | Row 20, Cell 9: Reduced motion options and animation preferences respected | Row 20, Cell 10: Form error messages and clear instructions for accessibility |
-
-## Test: Table with Internal Images
-
-| Feature | Description | Screenshot |
-|:--------|:------------|:-----------|
-| Image Display | Demonstrates internal image rendering in tables | ![Internal Image](../assets/image-1.jpg) |
-| Image Alignment | Shows different image alignments within table cells | <p align="center"><img src="../assets/image-2.jpg" alt="Centered Image" width="100"/></p> |
-| Image with Caption | Displays an image along with a caption in a table cell | ![Image with Caption](../assets/image-3.jpg)<br>*Figure: Sample Image with Caption* |
-| Linked Image | An image that acts as a hyperlink within a table cell | [![Linked Image](../assets/image-4.jpg)](https://example.com) |
-| Alt Text Image | An image with alt text for accessibility | ![Alt Text Image](../assets/image-5.jpg "This is alt text for the image") |
